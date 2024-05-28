@@ -11,6 +11,7 @@ import {
   Typography,
   styled,
 } from "@mui/material";
+import SportsSoccerIcon from '@mui/icons-material/SportsSoccer';
 import { useState } from "react";
 
 const StyledToolbar = styled(Toolbar)({
@@ -48,9 +49,9 @@ const Navbar = () => {
     <AppBar position="sticky">
       <StyledToolbar>
         <Typography variant="h6" sx={{ display: { xs: "none", sm: "block" } }}>
-          ARIJEET DEV
+          CITY CHAT
         </Typography>
-        <Pets sx={{ display: { xs: "block", sm: "none" } }} />
+        <SportsSoccerIcon sx={{ display: { xs: "block", sm: "none" } }} />
         <Search>
           <InputBase placeholder="search" />
         </Search>
@@ -64,7 +65,7 @@ const Navbar = () => {
           <Avatar
             sx={{ width: 30, height: 30 }}
             alt="Arijeet"
-            src="https://images.pexels.com/photos/846741/pexels-photo-846741.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            src="https://e7.pngegg.com/pngimages/287/555/png-clipart-manchester-city-f-c-manchester-city-w-f-c-premier-league-2011-fa-cup-final-premier-league-text-trademark-thumbnail.png"
             onClick={(e) => setOpen(true)}
           />
         </Icons>
@@ -72,7 +73,7 @@ const Navbar = () => {
           <Avatar
             sx={{ width: 30, height: 30 }}
             alt="Arijeet"
-            src="https://images.pexels.com/photos/846741/pexels-photo-846741.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            src="https://e7.pngegg.com/pngimages/287/555/png-clipart-manchester-city-f-c-manchester-city-w-f-c-premier-league-2011-fa-cup-final-premier-league-text-trademark-thumbnail.png"
           />
           <b>ARIJEET</b>
         </UserBox>
